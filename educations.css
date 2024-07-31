@@ -1,0 +1,303 @@
+/* Base styles for small screens (default) */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Media query for devices with a max-width of 480px (small screens) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+    .text a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .courses {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .course-content {
+        padding: 15px;
+        margin-left: 0;
+    }
+
+    .courses h2 {
+        font-size: 2rem;
+    }
+
+    .course {
+        width: 100px;
+        height: 100px;
+    }
+
+    .course img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    #service .heading,
+    #testimonial .heading,
+    #contact .heading {
+        font-size: 2rem;
+    }
+
+    #service .box,
+    #testimonial .box {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #contact form .inputBox input,
+    #contact form .inputBox textarea {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Media query for devices with a max-width of 768px (tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    .text p {
+        font-size: 1.5rem;
+    }
+
+    .text a {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+    .courses {
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+
+    .course-content {
+        padding: 20px;
+        margin-left: 5%;
+    }
+
+    .courses h2 {
+        font-size: 2.5rem;
+    }
+
+    .course {
+        width: 120px;
+        height: 120px;
+    }
+
+    .course img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    #service .heading,
+    #testimonial .heading,
+    #contact .heading {
+        font-size: 3rem;
+    }
+
+    #service .box,
+    #testimonial .box {
+        padding: 2rem;
+        margin: 1.5rem;
+    }
+
+    #contact form .inputBox input,
+    #contact form .inputBox textarea {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+    }
+}
+
+/* Media query for devices with a min-width of 769px (desktops) */
+@media (min-width: 769px) {
+    .navbar {
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+
+    .nav-links li {
+        margin: 0 15px;
+    }
+
+    .text {
+        font-size: 35px;
+    }
+
+    .text h1 {
+        font-size: 4rem;
+    }
+
+    .text p {
+        font-size: 2rem;
+    }
+
+    .text a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .courses {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+
+    .course-content {
+        padding: 90px;
+        margin-left: 15%;
+    }
+
+    .courses h2 {
+        font-size: 3rem;
+    }
+
+    .course {
+        width: 200px;
+        height: 200px;
+    }
+
+    .course img {
+        max-width: 80%;
+        max-height: 50%;
+    }
+
+    #service .heading,
+    #testimonial .heading,
+    #contact .heading {
+        font-size: 4rem;
+    }
+
+    #service .box,
+    #testimonial .box {
+        padding: 3rem;
+        margin: 2rem;
+    }
+
+    #contact form .inputBox input,
+    #contact form .inputBox textarea {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+/* Media query for devices with a min-width of 1024px (large desktops) */
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+
+    .nav-links li {
+        margin: 0 20px;
+    }
+
+    .text {
+        font-size: 40px;
+    }
+
+    .text h1 {
+        font-size: 4.5rem;
+    }
+
+    .text p {
+        font-size: 2.5rem;
+    }
+
+    .text a {
+        font-size: 22px;
+        padding: 12px 25px;
+    }
+
+    .courses {
+        margin-top: 6rem;
+        margin-bottom: 12rem;
+    }
+
+    .course-content {
+        padding: 100px;
+        margin-left: 20%;
+    }
+
+    .courses h2 {
+        font-size: 3.5rem;
+    }
+
+    .course {
+        width: 220px;
+        height: 220px;
+    }
+
+    .course img {
+        max-width: 85%;
+        max-height: 55%;
+    }
+
+    #service .heading,
+    #testimonial .heading,
+    #contact .heading {
+        font-size: 4.5rem;
+    }
+
+    #service .box,
+    #testimonial .box {
+        padding: 4rem;
+        margin: 2.5rem;
+    }
+
+    #contact form .inputBox input,
+    #contact form .inputBox textarea {
+        font-size: 1.7rem;
+        padding: 1.2rem;
+    }
+}
